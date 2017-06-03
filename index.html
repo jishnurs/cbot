@@ -29,7 +29,7 @@
     
 </head> 
 
-<body>
+<body id="myPage">
     <!-- ******HEADER****** --> 
     <header id="header" class="header">  
         <div class="container">       
@@ -494,6 +494,7 @@
             
         </div><!--//container-->
     </footer>
+<a href="#myPage" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
      
     <!-- Javascript -->          
     <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script>
@@ -520,6 +521,19 @@
           });
         });
     </script>
+
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="assets/js/move-top.js"></script>
+    <script type="text/javascript" src="assets/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){     
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
 </body>
 </html> 
 
