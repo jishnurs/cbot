@@ -683,7 +683,7 @@ span.arrow {
 }
 .features-section .section-title {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
   font-size: 36px;
   font-weight: 300;
 }
@@ -969,10 +969,11 @@ span.arrow {
   text-align: left;
 }
 .w3_address li{
-  color: #a8aeb3;
+  color: #fff;
+  font-weight: 600;
 }
 .w3_address li i {
-    border: 1px solid #222a31;
+    border: 1px solid #fff;
     padding:.5em;
     margin-right:1.5em;
     color: #fff;
@@ -984,7 +985,7 @@ span.arrow {
     font-size: 0.9em;
 }
 .w3_address li a{
-    color: #a8aeb3;
+    color: #fff;
     text-decoration: none;
 }
 .w3_address li a:hover{
