@@ -718,6 +718,73 @@ span.arrow {
   background: none;
   color: #40babd;
 }
+
+/*-- /services --*/
+.services {
+   background: #232121;
+}
+.wthree-heading{
+  text-align:center;
+}
+.wthree-heading h3{
+  color:#23282e;
+}
+.w3_agile_grids_top{
+    margin: 4em 0 0 0;
+}
+.icon-left {
+    float: left;
+    text-align: center;
+    padding: 0em 2em;
+    margin-right: 1em;
+}
+.icon-left i {
+    color: #3BC391;
+  font-size:2.5em;
+}
+.icon-right{
+    float: left;
+    width: 70%;
+}
+.icon-right h5 {
+    color: #EB4549;
+    font-size: 1.3em;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.icon-right p{
+    color: #969292;
+    font-size: 1.2em;
+    margin: 1em 0 0 0;
+    line-height: 1.9em;
+}
+.w3ls-agile-service-grid{
+    background: #252424;
+  padding: 5em 2em;
+}
+.w3ls-agile-service-grid:nth-child(2){
+  background: #1f1e1e;
+}
+.w3ls-agile-service-grid:nth-child(3){
+     
+    background: #1d1c1c;
+}
+.w3ls-agile-service-grid:nth-child(4){
+  background: #191818;
+}
+.agileits-icon-grid:hover .icon-left i {
+  color:#EB4549;
+  -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+  margin-right: 1em;
+  -webkit-transition: .5s all;
+    transition: .5s all;
+}
+/*-- //services --*/
+
 /* ======= Pricing Section ======= */
 .pricing-section {
   padding-top: 90px;
