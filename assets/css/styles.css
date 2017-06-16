@@ -1,12 +1,3 @@
-/*   
- * Template Name: Appkit Landing - Responsive Website Template for Developers
- * Version: 1.0
- * Author: Xiaoying Riley
- * Website: http://themes.3rdwavemedia.com/
- * Twitter: @3rdwave_themes
-* License: Creative Commons Attribution 3.0 License
-*/
-/* Theme default */
 body {
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
@@ -679,7 +670,7 @@ span.arrow {
 /* ======= Features Section ======= */
 .features-section {
   padding-top: 90px;
-  padding-bottom: 90px;
+  /*padding-bottom: 90px;*/
 }
 .features-section .section-title {
   margin: 0;
@@ -719,71 +710,91 @@ span.arrow {
   color: #40babd;
 }
 
-/*-- /services --*/
-.services {
-   background: #232121;
+/*services*/
+.gtco-container {
+  max-width: 1140px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.wthree-heading{
-  text-align:center;
+.gtco-cover > .gtco-container {
+  position: relative;
+  z-index: 10;
 }
-.wthree-heading h3{
-  color:#23282e;
+.gtco-heading {
+  margin-bottom: 5em;
 }
-.w3_agile_grids_top{
-    margin: 4em 0 0 0;
+.gtco-heading.gtco-heading-sm {
+  margin-bottom: 2em;
 }
-.icon-left {
-    float: left;
-    text-align: center;
-    padding: 0em 2em;
-    margin-right: 1em;
+.gtco-heading h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
 }
-.icon-left i {
-    color: #3BC391;
-  font-size:2.5em;
+.gtco-heading h2:before {
+  position: absolute;
+  bottom: 0;
+  content: "";
+  width: 50px;
+  margin-left: -25px;
+  height: 2px;
+  left: 50%;
+  background: #17B794;
 }
-.icon-right{
-    float: left;
-    width: 70%;
+.gtco-heading p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #1a1a1a;
 }
-.icon-right h5 {
-    color: #EB4549;
-    font-size: 1.3em;
-    margin: 0;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.feature-left {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
 }
-.icon-right p{
-    color: #969292;
-    font-size: 1.2em;
-    margin: 1em 0 0 0;
-    line-height: 1.9em;
+.feature-left .icon {
+  float: left;
+  text-align: center;
+  width: 15%;
 }
-.w3ls-agile-service-grid{
-    background: #252424;
-  padding: 5em 2em;
+.feature-left .icon i {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 40px;
+  color: #17B794;
 }
-.w3ls-agile-service-grid:nth-child(2){
-  background: #1f1e1e;
+.feature-left .feature-copy {
+  float: right;
+  width: 80%;
+  text-align: left;
 }
-.w3ls-agile-service-grid:nth-child(3){
-     
-    background: #1d1c1c;
+.feature-left .feature-copy h3 {
+  font-size: 18px;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
-.w3ls-agile-service-grid:nth-child(4){
-  background: #191818;
+.gtco-section {
+  /*padding: 7em 0;*/
+  clear: both;
+  position: relative;
 }
-.agileits-icon-grid:hover .icon-left i {
-  color:#EB4549;
-  -webkit-transition: .5s all;
-    transition: .5s all;
-    -moz-transition: .5s all;
-  margin-right: 1em;
-  -webkit-transition: .5s all;
-    transition: .5s all;
+@media screen and (max-width: 768px) {
+  .gtco-section {
+    padding: 3em 0;
+  }
 }
-/*-- //services --*/
+.border-bottom {
+  border-bottom: 1px solid #d9d9d9;
+}
+/*services*/
 
 /* ======= Pricing Section ======= */
 .pricing-section {
@@ -982,6 +993,16 @@ span.arrow {
   color: #616670;
 }
 /* ======= Contact Section ======= */
+.contact{
+  /*background: url("../images/contact.jpg");*/
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #FFF;*/
+}
 .contact-section {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -1201,7 +1222,8 @@ span.arrow {
   }
   .hero-carousel .carousel-inner .item-content-inner {
     max-width: 300px;
-    padding-top: 120px;
+    padding-top: 200px;
+    /*padding-top: 120px;*/
   }
   .team-section .item-inner {
     min-height: 515px;
