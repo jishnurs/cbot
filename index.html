@@ -619,28 +619,90 @@
         </div>
     </div> -->
     <!--//team-section-->
-    
+    <script src="assets/js/jquery-2.2.3.min.js"></script> 
+    <script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.form.js"></script>
+    <script src="assets/js/contact.js"></script>
 
     <div id="contact" class="contact-section contact">
-        <div class="container text-center">
-            <h2 class="section-title">Contact Us</h2>
-            <div class="contact-content">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <!-- <div class="contact-content">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.</p>
                 
-            </div>
-            <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 agile_footer_grid">
-                <!-- <h3>Contact Info</h3> -->
+            </div> -->
+            <!-- <div class="col-xs-12 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 agile_footer_grid">
+               
                 <ul class="w3_address">
                     <li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>CET - TBI, Main block<span>College of Engineering,Trivandrum.</span></li>
                     <li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">cbotlabs@outlook.com</a></li>
                     <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+91 7736392498, +91 9544377127</li>
-                    <!-- <li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+91 9544377127</li> -->
+                   
                 </ul>
-            </div>
-            <!-- <a class="btn btn-cta btn-primary" href="https://wrapbootstrap.com/theme/admin-CBOT-admin-theme-angularjs-WB051SCJ1?ref=3wm">Get in Touch</a> -->
+            </div> -->
             
-        </div><!--//container-->
-    </div><!--//contact-section-->
+            <div class="gtco-section">
+                <div class="gtco-container">
+                    <div class="row row-pb-md">
+                        <div class="col-md-6 col-sm-6 animate-box">
+                            <h3>Get In Touch</h3>
+                            <form id="contactform" action="processForm.php" method="post">
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label class="sr-only" for="name">Name</label>
+                                        <input type="text" id="name" name="name" class="form-control" placeholder="Your fullname">
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label class="sr-only" for="email">Email</label>
+                                        <input type="text" id="email" name="email" class="form-control" placeholder="Your email address">
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label class="sr-only" for="subject">Subject</label>
+                                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Your subject of this message">
+                                    </div>
+                                </div>
+
+                                <div class="row form-group">
+                                    <div class="col-md-12">
+                                        <label class="sr-only" for="message">Message</label>
+                                        <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Write us something"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" value="Send Message" id="send" class="btn btn-primary btn-lg pull-right">
+                                </div>
+
+                            </form>  
+                            <div id="response"></div>   
+                        </div>
+                        <div class="col-md-5 col-md-push-1 col-sm-6 animate-box">
+                            
+                            <div class="gtco-contact-info">
+                                <h3>Contact Information</h3>
+                                <ul>
+                                    <li class="address">CET - TBI, Main block, <br> College of Engineering,Trivandrum</li>
+                                    <li class="phone"><a href="tel://1234567920">+91 7736392498, 9544377127</a></li>
+                                    <li class="email"><a href="mailto:cbotlabs@outlook.com">cbotlabs@outlook.com</a></li>
+                                    <li class="url"><a href="http://gettemplates.co">cbotlabs.in</a></li>
+                                </ul>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    </div>
+                    
+                </div>
+
+        </div>
+    </div>
     
     <footer class="footer text-center">
         <div class="container">
@@ -654,7 +716,7 @@
      
     <!-- Javascript -->          
     <!-- <script type="text/javascript" src="assets/plugins/jquery-1.12.3.min.js"></script> -->
-<script src="assets/js/jquery-2.2.3.min.js"></script> 
+    
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>     
     <script type="text/javascript" src="assets/js/main.js"></script> 
