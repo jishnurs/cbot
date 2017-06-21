@@ -12,6 +12,7 @@ foreach($_POST as $key => $value) {
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
+$subject = $_POST["subject"];
 
 // Test input values for errors
 $errors = array();
@@ -45,12 +46,20 @@ if($errors) {
 }
 
 // Send the email
-$to = "jishnu2292@gmail.com";
-$subject = "Contact Form: $name";
-$message = "$message";
-$headers = "From: $email";
+$to = "jishnu2292@gmail.com,sujith.s.89@gmail.com";
+// $subject = "Enquiry from CBOT Labs: $name";
+$body = "<html><body><p>Hi,<br> </p>
+               <p>Enquiry from cbotlabs.com</p>
+               <h5>Name : ".$name."</h5>
+               <h5>Email : ".$email."</h5>
+               <h5>Subject : ".$subject."</h5>
+               <h5>Message : </h5><p>".$message."</p>";
+// $headers = "From: $email";
+$random_hash = md5(date('r', time()));
+$headers = "From:$email\nReply-To:$email ";
+$headers .= "\nContent-Type: text/html; boundary=\"PHP-alt-".$random_hash."\"";
 
-if(mail($to, $subject, $message, $headers)){
+if(mail($to, $subject, $body, $headers)){
    // Die with a success message
    die("<span class='success'>Success! Your message has been sent.</span>");
 }else{
