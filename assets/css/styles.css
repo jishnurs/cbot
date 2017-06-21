@@ -1075,7 +1075,7 @@ span.arrow {
 }
 .gtco-contact-info ul li.address:before {
   font-size: 30px;
-  content: "\e9d1";
+  content: "\e9d2";
 }
 .gtco-contact-info ul li.phone:before {
   font-size: 23px;
