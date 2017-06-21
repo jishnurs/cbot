@@ -280,7 +280,7 @@ span.arrow{
   font-size: 16px;
   line-height: 1.6em;
   color: #959595;
-  margin: 0.5em 0 3em;
+  /*margin: 0.5em 0 3em;*/
 }
 .in-btns a{
   display:inline-block;
