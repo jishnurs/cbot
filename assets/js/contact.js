@@ -50,7 +50,7 @@ $(function() {
       $(form).ajaxSubmit({
         target: "#response",
         success: function(responseText, statusText, xhr, $form) {
-          $("#send").attr("value", "Send Message");
+          $("#send").attr("value", "Message sent");
           // $(form).slideUp("fast");
           $("#response").html(responseText).hide().slideDown("fast");
         }
