@@ -168,8 +168,11 @@ a.btn-cta {
   margin: 0;
   display: inline-block;
   float: left;
-  font-size: 28px;
+  font-size: 23px;
   padding-top: 15px;
+}
+.logo span.text{
+  margin-left: -8px;
 }
 .header .logo .logo-icon-wrapper {
   /*margin-right: 3px;*/
@@ -183,7 +186,7 @@ a.btn-cta {
   height: 30px;
 }
 .header .logo .highlight {
-  font-weight: 800;
+  /*font-weight: 800;*/
 }
 .main-nav {
   margin-top: 6px;
@@ -365,7 +368,7 @@ ul.in-social li a span:hover{
 }
 .hello p {
   font-size: 14px;
-  height: 195px;
+  /*height: 195px;*/
   overflow: hidden;
 }
 .hello {
@@ -395,7 +398,7 @@ span.arrow {
   font-size: 3.5em;
 }
 .hello p {
-  height: 109px;
+  /*height: 109px;*/
 }
 .in-btns a {
   padding: 0.8em 2.5em;
@@ -457,28 +460,28 @@ span.arrow {
   background-position: center center;
 }
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url('../images/hero-1.jpg');
+  background-image: url('../images/cover/cover-1.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url('../images/hero-2.jpg');
+  background-image: url('../images/cover/cover-2.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .item-3 {
-  background-image: url('../images/hero-3.jpg');
+  background-image: url('../images/cover/cover-3.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 .hero-carousel .carousel-inner .heading {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 1.4;
   font-weight: bold;
   margin-top: 0;
